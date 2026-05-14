@@ -37,14 +37,21 @@ Proje öncesinde araç içi eğlence (infotainment) ve akıllı asistan sistemle
 
 🛠️ Kullanılan Teknolojiler
 
-C# ve .NET 10.0
-Windows Forms
-Vosk (Çevrimdışı Yapay Zeka Ses Tanıma)
-NAudio
-MySQL & MySql.Data (Veritabanı bağlantısı için)
-Google.Apis.YouTube.v3 & YouTubeExplode
-WebView2
-System.Net.Mail (SMTP E-posta entegrasyonu)
+-C# ve .NET 10.0
+
+-Windows Forms
+
+-Vosk (Çevrimdışı Yapay Zeka Ses Tanıma)
+
+-NAudio
+
+-MySQL & MySql.Data (Veritabanı bağlantısı için)
+
+-Google.Apis.YouTube.v3 & YouTubeExplode
+
+-WebView2
+
+-System.Net.Mail (SMTP E-posta entegrasyonu)
 
 ---
 
@@ -58,5 +65,7 @@ Projeyi klonlayın:
 💡 Bir Sonraki Güncelleme İçeriği
 
 Projemizde bulunan navigasyon sistemine gerçek zamanlı trafik verilerini entegre ederek en hızlı rotayı otonom olarak hesaplayacak bir sistem üzerine çalışıyoruz.
+
 Araç sensör verilerini (örneğin sıcaklık, far durumu) simüle eden bir arayüz ekleyerek tam kapsamlı bir OBD2 (araç arıza tespit) entegrasyonuna zemin hazırlamayı planlıyoruz.
+
 Yapay zekayı sadece sesli komut için değil, aynı zamanda sürücüyle doğal dilde sohbet edebilen, yol durumu hakkında tavsiyeler veren bir asistan seviyesine çıkarmayı düşünüyoruz. Uygulamanın aynı veritabanını kullanacağı ve paylaşacağı bir entegre mobil uygulama (Şimdilik Android platformları için) geliştiriyoruz.
