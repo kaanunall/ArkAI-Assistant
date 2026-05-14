@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<Nullable>disable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<NoWarn>MSB3277</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="assets\ai.png" />
+	  <None Remove="assets\map.png" />
+	  <None Remove="assets\music.png" />
+	  <None Remove="assets\profile.png" />
+	  <None Remove="assets\settings.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="assets\ai.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="assets\map.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="assets\music.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="assets\profile.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	  <Content Include="assets\settings.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Google.Apis.YouTube.v3" Version="1.73.0.4053" />
+		<PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2592.51" />
+		<PackageReference Include="MySql.Data" Version="9.6.0" />
+		<PackageReference Include="NAudio" Version="2.2.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+		<PackageReference Include="System.Speech" Version="10.0.3" />
+		<PackageReference Include="Vosk" Version="0.3.38" />
+		<PackageReference Include="YoutubeExplode" Version="6.5.7" />
+	</ItemGroup>
+
+</Project>
