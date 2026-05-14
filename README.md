@@ -7,13 +7,19 @@ Bu proje, C# ve Windows Forms altyapısı kullanılarak geliştirilmiş, sürüc
 🚀 Özellikler
 
 🧑‍💻 E-posta Doğrulamalı Güvenli Kullanıcı Kaydı ve Giriş Sistemi
+-
 🎙️ Çevrimdışı (Offline) Sesli Komut Algılama (Vosk AI)
+-
 🎵 Entegre YouTube Medya Oynatıcı ve Akıllı Kontrol
+-
 🗺️ Dinamik Harita ve Navigasyon Sistemi
+-
 ⚙️ Gelişmiş Araç Ayarları ve Kişiselleştirme Paneli
+-
 📦 Veri Tabanı İle Hızlı ve Güvenli Veri İşleme
+-
 ✅ Sürücüler için dikkat dağıtmayan, interaktif arayüz paneli.
-
+-
 ---
 
 📚 Literatür ve Özgünlük
